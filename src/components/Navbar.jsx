@@ -7,16 +7,16 @@ const Navbar = () => {
                 <p className="text-white">Software Developer(ML)</p>
             </div>
           <ul className="flex ">
-            <li className="mx-[4vw]">
-              <a href="" className="text-white font-semibold">Home</a>
+            <li className="mx-[3vw]">
+              <a href="/" className="text-white font-semibold">Home</a>
             </li>
-            <li className="mx-[4vw]">
-              <a href="" className="text-white font-semibold">About</a>
+            <li className="mx-[3vw]">
+              <a href="/about" className="text-white font-semibold">About</a>
             </li>
-            <li className="mx-[4vw]">
-              <a href="" className="text-white font-semibold">Projects</a>
+            <li className="mx-[3vw]">
+              <a href="/projects" className="text-white font-semibold">Projects</a>
             </li>
-            <li className="mx-[4vw]">
+            <li className="mx-[3vw]">
               <a href="" className="text-white font-semibold">Reach me</a>
             </li>
           </ul>
