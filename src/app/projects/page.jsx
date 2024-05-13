@@ -1,7 +1,12 @@
-const projects = () => {
-    return (
-        <div>Thius is projects page</div>
-    )
-}
+import Navbar from "@/components/Navbar";
 
-export default projects
+const projects = () => {
+  return (
+    <>
+      <Navbar />
+      <div>Thius is projects page</div>
+    </>
+  );
+};
+
+export default projects;

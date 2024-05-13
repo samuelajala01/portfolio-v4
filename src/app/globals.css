@@ -6,6 +6,7 @@
   border: 1px solid red
 } */
 
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -14,4 +15,6 @@
 
 body{
   background-image: url("../../public/bg-dark.png");
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
