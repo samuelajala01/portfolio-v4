@@ -18,6 +18,7 @@
 
 body{
   background-image: url("../../public/bg-dark.png");
+  background-attachment: fixed;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
