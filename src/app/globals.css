@@ -6,6 +6,9 @@
   border: 1px solid red
 } */
 
+:root{
+  --pry: #1e51cf;}
+
 
 @layer utilities {
   .text-balance {
@@ -18,3 +21,17 @@ body{
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+::-webkit-scrollbar{
+  width: 0.7rem;
+  background-color: #080a0c;
+  border-radius: 0.7rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--pry);
+  border-radius: 0.7rem;
+  height: 3rem;
+}
+
+
