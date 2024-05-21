@@ -12,7 +12,7 @@ export default function Home() {
         </h1>
         <p className="text-white md:text-2xl md:w-[40vw]">Great things from a small place, pushing codes that will change the world, one line at a time.</p>
       </div>
-      <div className=" flex flex-1 md:text-[20vw] p-0 justify-center ml-16  md:top-[20rem] mt-2 lg:mt-8 hidden md:block">🐱‍👤</div>
+      <div className=" flex flex-1 md:text-[20vw] p-0 justify-center ml-16  md:top-[20rem] mt-2 lg:mt-8 hidden md:block"> &#129399; </div>
      </section>
     </>
   );
