@@ -23,8 +23,8 @@ const projects = () => {
     <>
       <Navbar />
       
-      <section className="mx-[4vw] mt-8 text-center mb-32">
-        <h1 className="text-2xl md:text-[4vw] text-center mb-16">
+      <section className="mx-[5vw] mt-8 text-center mb-32">
+        <h1 className="text-2xl md:text-[4vw] text-center mb-16 font-semibold">
           See my projects
         </h1>
         <div className="m-auto">
@@ -33,13 +33,13 @@ const projects = () => {
             type="search"
             className="py-2 pl-[1rem] w-full text-[var(--pry)] bg-[#090f14] mb-4 text-2xl"
           />
-          <button className="py-2 px-4 bg-blue-600 w-full block font-semibold">
+          <button className="py-2 px-4 bg-blue-600 w-full block font-semibold btn transition duration-300 active:translate-y-1 active:scale-0">
             Search
           </button>
         </div>
       </section>
 
-      <div className="mx-[4vw]">
+      <div className="mx-[5vw]">
       {projectList.map((item) => (
         <Project key={item.title} title={item.title} desc={item.desc} type={item.type} />
       ))}
