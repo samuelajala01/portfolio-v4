@@ -12,9 +12,34 @@ const projectList = [
     desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems",
     type: "solo",
   },{
+    title: "GenMedix",
+    desc: "GenMedix is an Automated Therapeutic Intervention Software designed to help users recover and restore their mental health using AI, perfomance tracking, and personalised recommendations.",
+    type: "team",
+  },
+  ,{
     title: "SMS Spam Classifier",
     desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems",
     type: "team",
+  },
+  ,{
+    title: "Metabnb site Clone",
+    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems",
+    type: "solo",
+  },
+  ,{
+    title: "Portfolio-v2",
+    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems",
+    type: "solo",
+  },
+  ,{
+    title: "vidly Backend",
+    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems",
+    type: "team",
+  },
+  {
+    title: "Portfolio-v4",
+    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems",
+    type: "solo",
   },
 ];
 
