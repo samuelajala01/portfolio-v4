@@ -28,7 +28,7 @@ const projectList = [
   },
   {
     title: "SMS Spam Classifier",
-    desc: "A sentiment analysis model to classify SMS messages as spam or ham",
+    desc: "Natural Language Processing (NLP) model utilizing binary classification to effectively categorize SMS messages as either spam or legitimate (ham).",
     type: "team",
     tools: ["Python"],
     tags: ["Machine learning/Artificial Intelligence"],
@@ -49,7 +49,7 @@ const projectList = [
   },
   {
     title: "Vidly Backend",
-    desc: "Backend system for a video rental app. It includes endpoints for CRUD operations",
+    desc: "Backend system for a video rental web app. It includes endpoints for CRUD operations",
     type: "solo",
     tools: ["Node js"],
     tags: ["Backend"],
@@ -80,14 +80,14 @@ const Projects = () => {
     <>
       <Navbar />
       
-      <section className="mx-[5vw] mt-8 text-center mb-32">
-        <h1 className="text-2xl md:text-[4vw] text-center mb-16 font-semibold">
+      <section className="mx-[5vw] mt-16 text-center mb-32">
+        <h1 className="text-2xl md:text-[4vw] text-center mb-32 font-bold">
           See my projects
         </h1>
         <div className="m-auto">
           <input
             type="search"
-            className="py-2 pl-[1rem] w-full bg-[#090f14] mb-4 text-2xl border-2 border-[#090f14] rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--pry)] focus:ring-opacity-50"
+            className="py-2 pl-[1rem] w-full bg-[#090f14] mb-4 text-lg border-2 border-[#090f14] rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--pry)] focus:ring-opacity-50"
             value={searchTerm}
             onChange={e => setSearchTerm(e.target.value)}
             placeholder="Search Sam's Projects..."
@@ -96,7 +96,7 @@ const Projects = () => {
         <div className="flex flex-wrap justify-center">
           <button
             onClick={() => handleTagClick('')}
-            className={`m-2 px-4 py-2 border rounded-full ${selectedTag === '' ? 'bg-blue-600 text-white' : 'text-white'}`}
+            className={`m-2 px-4 py-2 border-blue-600 border-2 rounded-full ${selectedTag === '' ? 'bg-blue-600 text-white' : 'text-white'}`}
           >
             All
           </button>

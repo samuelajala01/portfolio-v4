@@ -5,11 +5,11 @@ import rick from "../../public/rick-pic.jpg"
 const Navbar = () => {
     return (
       <>
-        <nav className="flex justify-between py-4 px-[4vw] items-center">
+        <nav className="flex justify-between py-[1.5rem] px-[4vw] items-center">
             <div className="flex">
             <div className="pr-2"><Image src={rick} alt="Image of rick" width={50} className="rounded-full"/></div>
-                <div><p className="text-[var(--pry)] font-semibold">Samuel Ajala</p>
-                <p className="text-white">Software Developer(ML)</p></div>
+                <div><p className="text-[var(--pry)] font-bold">Samuel Ajala</p>
+                <p className="text-white text-sm">Software Developer(ML)</p></div>
                 
             </div>
           <ul className="hidden md:flex">
