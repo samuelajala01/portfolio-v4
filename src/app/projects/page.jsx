@@ -7,14 +7,14 @@ import Project from "@/components/Project";
 const projectList = [
   {
     title: "Object Classifier using CNN",
-    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems",
+    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems.",
     type: "solo",
     tools: ["Python", "Jupyter Notebook"],
     tags: ["Machine learning/Artificial Intelligence"],
   },
   {
     title: "Language Identification Model",
-    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems",
+    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems.",
     type: "solo",
     tools: ["Python", "Jupyter Notebook"],
     tags: ["Machine learning/Artificial Intelligence"],
@@ -24,7 +24,7 @@ const projectList = [
     desc: "GenMedix is an Automated Therapeutic Intervention Software designed to help users recover and restore their mental health using AI, performance tracking, and personalised recommendations.",
     type: "team",
     tools: ["Python", "React", "Tailwind"],
-    tags: ["Frontend", "Backend"],
+    tags: ["Frontend", "Backend", "FullStack"],
   },
   {
     title: "SMS Spam Classifier",
@@ -35,21 +35,21 @@ const projectList = [
   },
   {
     title: "Metabnb site Clone",
-    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems",
+    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems.",
     type: "solo",
     tools: [ "React", "CSS"],
     tags: ["Frontend"],
   },
   {
     title: "Portfolio-v4",
-    desc: "current portfolio page",
+    desc: "current portfolio page.",
     type: "solo",
     tools: ["Next js", "Tailwind"],
     tags: ["Frontend"],
   },
   {
     title: "Vidly Backend",
-    desc: "Backend system for a video rental web app. It includes endpoints for CRUD operations",
+    desc: "Backend system for a video rental web app. It includes endpoints for CRUD operations.",
     type: "solo",
     tools: ["Node js"],
     tags: ["Backend"],
@@ -115,7 +115,7 @@ const Projects = () => {
       <div className="mx-[5vw]">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((item) => (
-            <Project key={item.title} title={item.title} desc={item.desc} type={item.type} tags={item.tools.map((tool) => (<span className='px-2'>{tool}</span>))}/>
+            <Project key={item.title} title={item.title} desc={item.desc} type={item.type} tags={item.tools.map((tool) => (<span key={tool} className='px-2'>{tool}</span>))}/>
           ))
         ) : (
           <p className="text-center text-xl">Not Found</p>
