@@ -9,14 +9,14 @@ const projectList = [
     title: "Object Classifier using CNN",
     desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems",
     type: "solo",
-    tools: ["Python"],
+    tools: ["Python", "Jupyter Notebook"],
     tags: ["Machine learning/Artificial Intelligence"],
   },
   {
     title: "Language Identification Model",
     desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems",
     type: "solo",
-    tools: ["Python"],
+    tools: ["Python", "Jupyter Notebook"],
     tags: ["Machine learning/Artificial Intelligence"],
   },
   {
@@ -30,7 +30,7 @@ const projectList = [
     title: "SMS Spam Classifier",
     desc: "Natural Language Processing (NLP) model utilizing binary classification to effectively categorize SMS messages as either spam or legitimate (ham).",
     type: "team",
-    tools: ["Python"],
+    tools: ["Python", "Jupyter Notebook"],
     tags: ["Machine learning/Artificial Intelligence"],
   },
   {
@@ -115,7 +115,7 @@ const Projects = () => {
       <div className="mx-[5vw]">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((item) => (
-            <Project key={item.title} title={item.title} desc={item.desc} type={item.type} />
+            <Project key={item.title} title={item.title} desc={item.desc} type={item.type} tags={item.tools.map((tool) => (<span className='px-2'>{tool}</span>))}/>
           ))
         ) : (
           <p className="text-center text-xl">Not Found</p>
