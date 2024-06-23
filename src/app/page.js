@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section className="mx-[6vw] lg::mx-[4vw] ">
+      <section className="mx-[6vw] lg::mx-[4vw] font-sans">
         <div className=" block h-[85vh] sm:flex sm:justify-between">
           <div className="flex-[1.5] my-auto">
             <h1 className="text-4xl sm:text-6xl text-white my-8">
@@ -22,7 +22,7 @@ export default function Home() {
             <Image
               src={profileImg}
               alt="profile image"
-              className="mx-auto border-8 rounded-lg border-dotted h-[15rem] w-[15rem] sm:h-[15rem] sm:w-[15rem] sm:mt-16 md:mt-24 lg:mt-24"
+              className="mx-auto border-4 rounded-lg border-dashed border-blue-600 h-[15rem] w-[15rem] sm:h-[15rem] sm:w-[15rem] sm:mt-16 md:mt-24 lg:mt-24"
 
             />
           </div>
