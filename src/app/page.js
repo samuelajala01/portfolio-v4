@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
-import profileImg from "../../public/rick-pic.jpg";
+import profileImg from "../../public/my-pic.jpg";
 
 export default function Home() {
   return (
