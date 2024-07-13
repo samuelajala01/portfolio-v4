@@ -26,7 +26,7 @@ const Navbar = () => {
               <Link href="" className="text-white font-medium">Reach me</Link>
             </li>
           </ul>
-          <div className="flex py-1 px-[2vw] bg-[var(--pry)] rounded">Location: UK</div>
+          <div className="flex py-1 px-[2vw] bg-[var(--pry)] rounded">Location: NG</div>
         </nav>
         
       </>
