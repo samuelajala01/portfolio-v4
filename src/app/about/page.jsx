@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
-import profileImg from "../../../public/rick-pic.jpg";
+import profileImg from "../../../public/my_pic.jpg";
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
             <Image
               src={profileImg}
               alt="profile image"
-              className="border-8 rounded-lg border-dotted w-3/4"
+              className="border-2 rounded-lg border-dotted w-3/5 h-1/2"
             />
           </div>
         </div>
