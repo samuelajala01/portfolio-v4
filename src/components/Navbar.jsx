@@ -23,7 +23,7 @@ const Navbar = () => {
               <Link href="/projects" className="text-white font-medium">Projects</Link>
             </li>
             <li className="mx-[2.5vw]">
-              <Link href="" className="text-white font-medium">Reach me</Link>
+              <Link href="/contact" className="text-white font-medium">Reach me</Link>
             </li>
           </ul>
           <div className="flex py-1 px-[2vw] bg-[var(--pry)] rounded">Location: NG</div>
