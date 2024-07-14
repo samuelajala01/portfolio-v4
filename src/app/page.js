@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
-import profileImg from "../../public/my_pic.jpg";
+import profileImg from "../../public/rick-pic.jpg";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
             <Image
               src={profileImg}
               alt="profile image"
-              className="mx-auto border-4 rounded-lg border-dashed border-blue-600 h-[15rem] w-[15rem] sm:h-[25rem] sm:w-[15rem] sm:mt-16 md:mt-24 lg:mt-24"
+              className="mx-auto border-4 rounded-lg border-dashed border-blue-600 h-[15rem] w-[15rem] sm:h-[15rem] sm:w-[15rem] sm:mt-16 md:mt-24 lg:mt-24"
 
             />
           </div>
