@@ -34,13 +34,6 @@ const projectList = [
     tags: ["Machine learning/Artificial Intelligence"],
   },
   {
-    title: "Metabnb site Clone",
-    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems.",
-    type: "solo",
-    tools: [ "React", "CSS"],
-    tags: ["Frontend"],
-  },
-  {
     title: "Portfolio-v4",
     desc: "current portfolio page.",
     type: "solo",
@@ -53,7 +46,29 @@ const projectList = [
     type: "solo",
     tools: ["Node js"],
     tags: ["Backend"],
-  }
+  },
+  {
+    title: "simple arduino car",
+    desc: "code for arduino car utlizing bluetooth as the communication protocol",
+    type: "solo",
+    tools: ["C++", "Arduino IDE"],
+    tags: ["Hardware"],
+  },
+  {
+    title: "Metabnb clone",
+    desc: "landing page clone of the metabnb site",
+    type: "solo",
+    tools: ["React", "CSS"],
+    tags: ["Frontend"],
+  },
+  {
+    title: "Easybank Landing Page",
+    desc: "Easybank landing page- a website challenge from frontendmentor",
+    type: "solo",
+    tools: [ "HTML", "CSS"],
+    tags: ["Frontend"],
+  },
+  
 ];
 
 const Projects = () => {
