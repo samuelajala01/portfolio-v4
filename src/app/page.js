@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import profileImg from "../../public/rick-pic.jpg";
+import SocialBox from "@/components/SocialBox";
+
+import linkedin from "../../public/linkedin-icon.png"
+import github from "../../public/github-icon.png"
 
 export default function Home() {
   return (
@@ -9,7 +13,7 @@ export default function Home() {
       <section className="mx-[6vw] lg::mx-[4vw] font-sans">
         <div className=" block h-[85vh] sm:flex sm:justify-between">
           <div className="flex-[1.5] my-auto">
-            <h1 className="text-4xl sm:text-6xl text-white my-8">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl text-white my-8">
               Pushing Machines to 
               <span className="text-[var(--pry)]"> Brilliance</span>
             </h1>
@@ -26,6 +30,12 @@ export default function Home() {
 
             />
           </div>
+        </div>
+        <div>
+        <SocialBox name="Twitter" social_link="https://twitter.com/samuelajala01" img_link={linkedin}/>
+        <SocialBox name="LinkedIn" social_link="https://linkedin.com/in/samuelajala01" img_link={linkedin}/>
+        <SocialBox name="Github" social_link="https://github.com/samuelajala01" img_link={github}/>
+
         </div>
       </section>
     </>

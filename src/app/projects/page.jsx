@@ -7,7 +7,7 @@ import Project from "@/components/Project";
 const projectList = [
   {
     title: "Object Classifier using CNN",
-    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems.",
+    desc: "classification model built using the Cifar-10 dataset.",
     type: "solo",
     tools: ["Python", "Jupyter Notebook"],
     tags: ["Machine learning/Artificial Intelligence"],
