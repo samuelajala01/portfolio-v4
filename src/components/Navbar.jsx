@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className="flex">
             <div className="pr-2"><Image src={rick} alt="Image of rick" width={50} className="rounded-full"/></div>
                 <div><p className="text-[var(--pry)] font-bold">Samuel Ajala</p>
-                <p className="text-white text-sm">Software Developer(ML)</p></div>
+                <p className="text-white text-sm">Software Developer (ML)</p></div>
                 
             </div>
           <ul className="hidden md:flex">

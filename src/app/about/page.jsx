@@ -14,7 +14,7 @@ const About = () => {
             in my third year studying Electronics and Computer Engineering at
             the Lagos State University. I have some experience in Frontend
             development, Additive Manufacturing, Internet of Things, and
-            Embedded systems
+            Embedded systems.
           </p>
           <div className="hidden md:flex flex-[1] items-center justify-center">
             <Image
