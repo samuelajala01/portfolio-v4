@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
 import profileImg from "../../public/rick-pic.jpg";
 import SocialBox from "@/components/SocialBox";
 
@@ -10,7 +9,6 @@ import github from "../../public/github-icon.png"
 export default function Home() {
   return (
     <>
-      <Navbar />
       <section className="mx-[6vw] lg::mx-[4vw] font-sans">
         <div className=" block mt-32 mb-20 sm:flex sm:justify-between my-auto">
           <div className="flex-[1.5]">

@@ -92,9 +92,7 @@ const Projects = () => {
   const allTags = Array.from(new Set(projectList.flatMap(project => project.tags)));
 
   return (
-    <>
-      <Navbar />
-      
+    <>      
       <section className="mx-[5vw] mt-16 text-center mb-32">
         <h1 className="text-2xl md:text-[4vw] text-center mb-32 font-bold">
           See my projects

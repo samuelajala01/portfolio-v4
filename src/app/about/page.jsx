@@ -1,11 +1,9 @@
-import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import profileImg from "../../../public/my_pic.jpg";
 
 const About = () => {
   return (
     <>
-      <Navbar />
       <section className="mx-[4vw]">
         <h2 className="text-4xl md:text-6xl my-4 font-bold text-[var(--pry)]">Get to know me</h2>
         <div className="block md:flex items-center">
