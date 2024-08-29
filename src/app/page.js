@@ -4,6 +4,7 @@ import SocialBox from "@/components/SocialBox";
 
 import linkedin from "../../public/linkedin-icon.png"
 import github from "../../public/github-icon.png"
+import Contactbox from "@/components/Contactbox";
 
 
 export default function Home() {
@@ -31,12 +32,7 @@ export default function Home() {
           </div>
         </div>
         </div>
-        <div>
-        <SocialBox name="Twitter" social_link="https://twitter.com/samuelajala01" img_link={linkedin}/>
-        <SocialBox name="LinkedIn" social_link="https://linkedin.com/in/samuelajala01" img_link={linkedin}/>
-        <SocialBox name="Github" social_link="https://github.com/samuelajala01" img_link={github}/>
-
-        </div>
+        <Contactbox />
       </section>
     </>
   );
