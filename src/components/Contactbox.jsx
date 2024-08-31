@@ -1,3 +1,7 @@
+import SocialBox from "./SocialBox";
+import linkedin from "../../public/linkedin-icon.png"
+import github from "../../public/github-icon.png"
+
 const Contactbox = () => {
     return ( <>
     <div>

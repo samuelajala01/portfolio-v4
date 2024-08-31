@@ -1,13 +1,34 @@
+'use client';
+
+import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 import profileImg from "../../public/rick-pic.jpg";
-import SocialBox from "@/components/SocialBox";
-
-import linkedin from "../../public/linkedin-icon.png"
-import github from "../../public/github-icon.png"
 import Contactbox from "@/components/Contactbox";
+import Loader from "@/components/Loader";
 
 
 export default function Home() {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const handleLoad = () => {
+      setLoading(false);
+    };
+
+    if (document.readyState === 'complete') {
+      handleLoad();
+    } else {
+      window.addEventListener('load', handleLoad);
+    }
+
+    return () => window.removeEventListener('load', handleLoad);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <>
       <section className="mx-[6vw] lg::mx-[4vw] font-sans">
@@ -37,3 +58,5 @@ export default function Home() {
     </>
   );
 }
+
+
