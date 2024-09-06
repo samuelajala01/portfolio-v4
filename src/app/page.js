@@ -5,6 +5,7 @@ import Image from "next/image";
 import profileImg from "../../public/rick-pic.jpg";
 import Contactbox from "@/components/Contactbox";
 import Loader from "@/components/Loader";
+import { FaRocket } from 'react-icons/fa';
 
 
 export default function Home() {
@@ -36,7 +37,9 @@ export default function Home() {
           <div className="flex-[1.5]">
             <h1 className="text-4xl sm:text-6xl lg:text-[5.5vw] text-white my-8">
               Pushing Machines to 
-              <span className="text-[var(--pry)]"> Brilliance </span>
+              <span className="text-[var(--pry)]"> Brilliance 
+                <FaRocket className="inline-block text-blue-600 hover:text-red-700 ml-2" size={64} />
+              </span>
             </h1>
             <p className="text-white my-4 sm:my-8  md:text-2xl md:w-[40vw]">
               Great things from a small place, pushing codes that will change
