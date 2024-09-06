@@ -34,9 +34,9 @@ export default function Home() {
       <section className="mx-[6vw] lg::mx-[4vw] font-sans">
         <div className=" block mt-32 mb-20 sm:flex sm:justify-between my-auto">
           <div className="flex-[1.5]">
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl text-white my-8">
+            <h1 className="text-4xl sm:text-6xl lg:text-[5.5vw] text-white my-8">
               Pushing Machines to 
-              <span className="text-[var(--pry)]"> Brilliance</span>
+              <span className="text-[var(--pry)]"> Brilliance </span>
             </h1>
             <p className="text-white my-4 sm:my-8  md:text-2xl md:w-[40vw]">
               Great things from a small place, pushing codes that will change

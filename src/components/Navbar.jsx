@@ -14,16 +14,16 @@ const Navbar = () => {
             </div>
           <ul className="hidden md:flex">
             <li className="mx-[2.5vw]">
-              <Link href="/" className="text-white font-medium">Home</Link>
+              <Link href="/" className="text-white font-medium hover:text-blue-600">Home</Link>
             </li>
             <li className="mx-[2.5vw]">
-              <Link href="/about" className="text-white font-medium">About</Link>
+              <Link href="/about" className="text-white font-medium hover:text-blue-600">About</Link>
             </li>
             <li className="mx-[2.5vw]">
-              <Link href="/projects" className="text-white font-medium">Projects</Link>
+              <Link href="/projects" className="text-white font-medium hover:text-blue-600">Projects</Link>
             </li>
-            <li className="mx-[2.5vw]">
-              <Link href="/contact" className="text-white font-medium">Reach me</Link>
+            <li className="mx-[2.5vw] ">
+              <Link href="/contact" className="text-white font-medium hover:text-blue-600">Reach me</Link>
             </li>
           </ul>
           <div className="flex py-1 px-[2vw] bg-[var(--pry)] rounded">Location: NG</div>
