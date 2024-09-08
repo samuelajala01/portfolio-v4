@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <section className="mx-[4vw]">
-        <h2 className="text-4xl md:text-6xl my-4 font-bold text-[var(--pry)]">Get to know me</h2>
+        <h2 className="text-4xl md:text-6xl my-8 font-bold text-[var(--pry)]">Get to know me</h2>
         <div className="block md:flex items-center">
           <p className="text-[1.1rem] md:text-[1.4rem] opacity-75 flex-[1.5]">
             In case you didn&#39;t catch that, I&#39;m Samuel Ajala, currently
@@ -22,6 +22,9 @@ const About = () => {
             />
           </div>
         </div>
+        <div className="my-24">
+          <h3 className="text-2xl md:text-4xl my-8 font-bold text-[var(--pry)]">Here's what I do</h3>
+        <p className="text-[1.1rem] md:text-[1.4rem] opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus laudantium amet voluptates exercitationem alias culpa voluptas et, repellendus quas consequatur impedit at error eos aperiam? Sit autem consectetur hic?</p></div>
       </section>
     </>
   );
