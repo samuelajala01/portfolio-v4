@@ -38,7 +38,7 @@ export default function Home() {
             <h1 className="text-4xl sm:text-6xl lg:text-[5.5vw] text-white my-8">
               Pushing Machines to 
               <span className="text-[var(--pry)]"> Brilliance 
-                <FaRocket className="inline-block text-blue-600 hover:text-red-700 ml-2" size={64} />
+                <FaRocket className="inline-block text-blue-600  ml-2" size={"5vw"} />
               </span>
             </h1>
             <p className="text-white my-4 sm:my-8  md:text-2xl md:w-[40vw]">

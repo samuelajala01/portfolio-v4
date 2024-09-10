@@ -3,7 +3,7 @@ import { FaTwitter, FaLinkedin, FaGithub, FaRocket } from 'react-icons/fa';
 
 const ContactBox = () => {
     return (
-        <div className="fixed bottom-12 left-24 z-50 p-4 border-2 border-blue-600 rounded-sm flex space-x-4">
+        <div className="fixed bottom-12 left-24 z-50 p-4 bg-black bg-opacity-[0.5] rounded-sm flex space-x-4">
             <a href="https://www.twitter.com/samuelajala01" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                 <FaTwitter className="text-blue-400 hover:text-blue-600" size={32} />
             </a>
