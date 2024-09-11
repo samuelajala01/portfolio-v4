@@ -23,7 +23,7 @@ const About = () => {
           </div>
         </div>
         <div className="my-24">
-          <h3 className="text-2xl md:text-4xl my-8 font-bold text-[var(--pry)]">Here's what I do</h3>
+          <h3 className="text-2xl md:text-4xl my-8 font-bold text-[var(--pry)]">Here&#39;s what I do</h3>
         <p className="text-[1.1rem] md:text-[1.4rem] opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus laudantium amet voluptates exercitationem alias culpa voluptas et, repellendus quas consequatur impedit at error eos aperiam? Sit autem consectetur hic?</p></div>
       </section>
     </>
