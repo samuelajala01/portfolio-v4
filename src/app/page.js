@@ -56,8 +56,8 @@ export default function Home() {
           </div>
         </div>
         </div>
-        <Contactbox />
       </section>
+        <Contactbox />
     </>
   );
 }

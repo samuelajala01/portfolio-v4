@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Project from "@/components/Project";
+import ContactBox from '@/components/Contactbox';
 
 const projectList = [
   {
@@ -133,6 +134,8 @@ const Projects = () => {
           <p className="text-center text-xl">Not Found</p>
         )}
       </div>
+
+      <ContactBox/>
     </>
   );
 };
