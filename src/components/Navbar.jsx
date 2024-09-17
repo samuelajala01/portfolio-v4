@@ -2,22 +2,28 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react"; // Import useState for toggle functionality
-import avatar from "../../public/avatar.png";
+import { useState, useEffect } from "react";
+import rick from "../../public/rick-pic.jpg";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false); // State to manage mobile menu
+  const [isOpen, setIsOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false); // Detect if mounted
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  // Detect if the component has mounted to avoid hydration issues
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   return (
     <>
       <nav className="flex justify-between py-[1.5rem] px-[4vw] items-center">
         <div className="flex">
           <div className="pr-2">
-            <Image src={avatar} alt="Image of rick" width={50} className="rounded-full" />
+            <Image src={rick} alt="Image of rick" width={50} className="rounded-full" />
           </div>
           <div>
             <p className="text-[var(--pry)] font-bold">Samuel Ajala</p>
@@ -59,13 +65,12 @@ const Navbar = () => {
           className="md:hidden text-white focus:outline-none"
           onClick={toggleMenu}
         >
-          {/* Icon for the button */}
           {isOpen ? "Close" : "Menu"}
         </button>
       </nav>
 
-      {/* Mobile Menu */}
-      {isOpen && (
+      {/* Mobile Menu (rendered only after client-side) */}
+      {isMounted && isOpen && (
         <ul className="md:hidden flex flex-col items-center bg-gray-800 p-4">
           <li className="mb-4">
             <Link href="/" className="text-white font-medium hover:text-blue-600" onClick={toggleMenu}>
