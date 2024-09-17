@@ -128,7 +128,13 @@ const Projects = () => {
       <div className="mx-[5vw]">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((item) => (
-            <Project key={item.title} title={item.title} desc={item.desc} type={item.type} tags={<div className='block sm:flex'>{item.tools.map((tool) => (<p key={tool} className='px-2'>{tool}</p>))}</div>}/>
+            <Project 
+              key={item.title} 
+              title={item.title} 
+              desc={item.desc} 
+              type={item.type} 
+              tools={item.tools} // Just pass tools as array
+            />
           ))
         ) : (
           <p className="text-center text-xl">Not Found</p>
