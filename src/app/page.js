@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
-import profileImg from "../../public/rick-pic.jpg";
+import profileImg from "../../public/avatar.png";
 import Contactbox from "@/components/Contactbox";
 import Loader from "@/components/Loader";
 import { FaRocket } from 'react-icons/fa';

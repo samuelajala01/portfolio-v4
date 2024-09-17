@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react"; // Import useState for toggle functionality
-import rick from "../../public/rick-pic.jpg";
+import avatar from "../../public/avatar.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State to manage mobile menu
@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className="flex justify-between py-[1.5rem] px-[4vw] items-center">
         <div className="flex">
           <div className="pr-2">
-            <Image src={rick} alt="Image of rick" width={50} className="rounded-full" />
+            <Image src={avatar} alt="Image of rick" width={50} className="rounded-full" />
           </div>
           <div>
             <p className="text-[var(--pry)] font-bold">Samuel Ajala</p>
