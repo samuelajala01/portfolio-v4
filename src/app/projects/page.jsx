@@ -95,7 +95,7 @@ const Projects = () => {
     <>      
       <section className="mx-[5vw] mt-16 text-center mb-32">
         <h1 className="text-2xl md:text-[4vw] text-center mb-32 font-bold">
-          See my projects
+          See <span className="text-blue-600">my</span> projects
         </h1>
         <div className="m-auto">
           <input
