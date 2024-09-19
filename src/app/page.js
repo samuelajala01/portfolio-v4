@@ -51,7 +51,7 @@ export default function Home() {
             <Image
               src={profileImg}
               alt="profile image"
-             className="rounded-lg border-4 border-dashed border-blue-600 h-[15rem] w-[15rem]"
+             className="rounded-full border-blue-600 h-[15rem] w-[15rem]"
             />
           </div>
         </div>
