@@ -7,7 +7,7 @@ const About = () => {
     <>
       <section className="mx-[4vw]">
         <h2 className="text-4xl md:text-6xl my-8 font-bold text-[var(--pry)]">Get to know me</h2>
-        <div className="inline-flex flex flex-col-reverse sm:flex-row items-center">
+        <div className="inline-flex flex-col-reverse sm:flex-row items-center">
           <p className="text-[1.1rem] md:text-[1.4rem] opacity-75 flex-[1.5]">
             In case you didn&#39;t catch that, I&#39;m Samuel Ajala, currently
             in my third year studying Electronics and Computer Engineering at
@@ -24,10 +24,10 @@ const About = () => {
           </div>
         </div>
         <div className="my-24">
-          <h3 className="text-2xl md:text-4xl my-8 font-bold text-[var(--pry)]">Here&#39;s what I do</h3>
-        <p className="text-[1.1rem] md:text-[1.4rem] opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus laudantium amet voluptates exercitationem alias culpa voluptas et, repellendus quas consequatur impedit at error eos aperiam? Sit autem consectetur hic?</p></div>
+          <h3 className="text-2xl md:text-4xl my-8 font-bold text-[var(--pry)]">...a little bit more</h3>
+          <p className="text-[1.1rem] md:text-[1.4rem] opacity-75">I&#39;m someone who loves exploring new ways to build interesting tech. I&#39;m driven by curiosity and passion whether I&#39;m coding, diving into robotics, or simply getting lost in a good book. Outside of tech, you&#39;sll probably find me tinkering with DIY projects, playing Chess, or table-tennis. I thrive on challenges and believe in using my skills to make things better.</p></div>
       </section>
-      <ContactBox/>
+      <ContactBox />
     </>
   );
 };
