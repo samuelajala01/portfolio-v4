@@ -28,7 +28,7 @@ const projectList = [
   },
   {
     title: "SMS Spam Classifier",
-    desc: "Natural Language Processing (NLP) model utilizing binary classification to effectively categorize SMS messages as either spam or legitimate (ham).",
+    desc: "Natural Language Processing (NLP) model utilizing binary classification to effectively categorize SMS messages as either spam or legitimate(ham).",
     type: "team",
     tools: ["Python", "Jupyter Notebook"],
     tags: ["Machine learning/Artificial Intelligence"],
