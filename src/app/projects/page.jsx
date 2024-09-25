@@ -24,7 +24,7 @@ const projectList = [
     desc: "GenMedix is an Automated Therapeutic Intervention Software designed to help users recover and restore their mental health using AI, performance tracking, and personalised recommendations.",
     type: "team",
     tools: ["Python", "React", "Tailwind"],
-    tags: ["Frontend", "Backend", "FullStack"],
+    tags: ["Frontend", "Backend", "FullStack", "Machine learning/Artificial Intelligence"],
   },
   {
     title: "SMS Spam Classifier",
