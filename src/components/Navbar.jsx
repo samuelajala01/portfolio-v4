@@ -49,8 +49,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="mx-[2.5vw]">
-            <Link href="/contact" className="text-white font-medium hover:text-blue-600">
-              Reach me
+            <Link href="/research" className="text-white font-medium hover:text-blue-600">
+              Research
             </Link>
           </li>
         </ul>
@@ -88,8 +88,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="mb-4">
-            <Link href="/contact" className="text-white font-medium hover:text-blue-600" onClick={toggleMenu}>
-              Reach me
+            <Link href="/research" className="text-white font-medium hover:text-blue-600" onClick={toggleMenu}>
+              Research
             </Link>
           </li>
         </ul>
