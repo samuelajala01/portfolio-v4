@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <>
       <section className="mx-[6vw] lg::mx-[4vw] font-sans">
-        <div className=" block mt-32 mb-20 sm:flex sm:justify-between my-auto">
+        <div className=" block mt-[15vh] mb-20 sm:flex sm:justify-between my-auto">
           <div className="flex-[1.5] text-center sm:text-left">
             <h1 className="text-[9vw] sm:text-6xl lg:text-[5.5vw] text-white my-2 sm:my-8">
               Pushing Machines to 
@@ -41,7 +41,7 @@ export default function Home() {
                 <FaRocket className="inline-block text-blue-600  ml-2" size={"5vw"} />
               </span>
             </h1>
-            <p className="text-white my-4 sm:my-8 mb-12 text-2xl md:w-[40vw]">
+            <p className="text-white my-4 sm:my-[3vh] mb-12 text-2xl md:w-[40vw]">
               Great things from a small place, pushing codes that will change
               the world, one line at a time.
             </p>
