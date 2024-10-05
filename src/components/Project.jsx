@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-const Project = ({ title, type, desc, tags, tools }) => {
+const Project = ({ title, type, desc, tags, tools, visit }) => {
   return (
     <>
       <div className="max-w-[64rem] mx-auto bg-black bg-opacity-[0.5] rounded-md p-8 px-12 text-left mb-16 border-1 border-black">
         <h2 className="text-2xl md:text-4xl font-semibold hover:text-blue-600">
-          <Link href="./">{title}</Link>
+          <Link href={visit}>{title}</Link>
         </h2>
         
      
