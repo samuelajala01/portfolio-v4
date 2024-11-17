@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /api/  # Prevents crawlers from accessing API routes
+Disallow: /private/  # Change this to any directory you want to block
+Allow: /  # Allows all crawlers to access everything else
+
+Sitemap: https://yourwebsite.com/sitemap.xml  # Link to your sitemap

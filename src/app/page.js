@@ -47,11 +47,11 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-1 justify-around">
-          <div>
+          <div className='rounded-full h-[15rem] w-[15rem] shadow-[45px_15px_5px_rgba(0,0,0,0.3)]'>
             <Image
               src={profileImg}
               alt="profile image"
-             className="rounded-full border-blue-600 h-[15rem] w-[15rem]"
+             className="rounded-full"
             />
           </div>
         </div>
