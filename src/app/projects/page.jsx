@@ -14,6 +14,14 @@ const projectList = [
     tags: ["Machine learning/Artificial Intelligence"],
   },
   {
+    title: "SM NLP Scapper",
+    visit: "https://github.com/samuelajala01/sm_nlp_scrapper",
+    desc: "A web scraping tool that gathers user-generated comments from various online sources related to specified topics. The tool then performs sentiment analysis on the collected data to assess public opinion.",
+    type: "solo",
+    tools: ["Python"],
+    tags: ["Machine learning/Artificial Intelligence"],
+  },
+  {
     title: "Language Identification Model",
     visit: "https://github.com/samuelajala01/language_identification_model",
     desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems.",
