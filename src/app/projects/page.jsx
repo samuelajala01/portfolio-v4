@@ -71,7 +71,7 @@ const projectList = [
     tags: ["Hardware"],
   },
   {
-    title: "Metabnb clone",
+    title: "Metabnb website clone",
     visit: "https://github.com/samuelajala01/metabnb-clone",
     desc: "landing page clone of the metabnb site",
     type: "solo",
