@@ -6,6 +6,30 @@ import ContactBox from '@/components/Contactbox';
 
 const projectList = [
   {
+    title: "GenMedix",
+    visit: "https://github.com/SaasSquad/GenMedix",
+    desc: "GenMedix is an Automated Therapeutic Intervention Software designed to help users recover and restore their mental health using AI, performance tracking, and personalised recommendations.",
+    type: "team",
+    tools: ["Python", "React", "Tailwind"],
+    tags: ["Frontend", "Backend", "FullStack", "Machine learning/Artificial Intelligence"],
+  },
+  {
+    title: "Vidly Backend",
+    visit: "https://github.com/samuelajala01/vidly_backend",
+    desc: "Backend system for a video rental web app. It includes endpoints for CRUD operations.",
+    type: "solo",
+    tools: ["Node js"],
+    tags: ["Backend"],
+  },
+  {
+    title: "NIHDS Landing Page",
+    visit: "https://nihds.vercel.app",
+    desc: "Website for the Nigerian Innovative Hardware Development Society.",
+    type: "team",
+    tools: ["React", 'Tailwind'],
+    tags: ["Frontend"],
+  },
+  {
     title: "Object Classifier using CNN",
     visit: "https://github.com/samuelajala01/CNN_classifier",
     desc: "classification model built using the Cifar-10 dataset.",
@@ -20,6 +44,14 @@ const projectList = [
     type: "solo",
     tools: ["Python"],
     tags: ["Machine learning/Artificial Intelligence"],
+  }, 
+  {
+    title: "LASU Faculty Journal",
+    visit: "https://github.com/SaasSquad/faculty-journal",
+    desc: "A Fullstack Faculty Journal website for the Lagos State University which allows Lecturers and Students publish journals.",
+    type: "team",
+    tools: ["React", "Tailwind"],
+    tags: ["Frontend", "Backend", "FullStack"],
   },
   {
     title: "Language Identification Model",
@@ -28,22 +60,6 @@ const projectList = [
     type: "solo",
     tools: ["Python", "Jupyter Notebook"],
     tags: ["Machine learning/Artificial Intelligence"],
-  },
-  {
-    title: "GenMedix",
-    visit: "https://github.com/SaasSquad/GenMedix",
-    desc: "GenMedix is an Automated Therapeutic Intervention Software designed to help users recover and restore their mental health using AI, performance tracking, and personalised recommendations.",
-    type: "team",
-    tools: ["Python", "React", "Tailwind"],
-    tags: ["Frontend", "Backend", "FullStack", "Machine learning/Artificial Intelligence"],
-  },
-  {
-    title: "LASU Faculty Journal",
-    visit: "https://github.com/SaasSquad/faculty-journal",
-    desc: "A Fullstack Faculty Journal website for the Lagos State University which allows Lecturers and Students publish journals.",
-    type: "team",
-    tools: ["React", "Tailwind"],
-    tags: ["Frontend", "Backend", "FullStack"],
   },
 
   {
@@ -62,16 +78,9 @@ const projectList = [
     tools: ["Next js", "Tailwind"],
     tags: ["Frontend"],
   },
+  
   {
-    title: "Vidly Backend",
-    visit: "https://github.com/samuelajala01/vidly_backend",
-    desc: "Backend system for a video rental web app. It includes endpoints for CRUD operations.",
-    type: "solo",
-    tools: ["Node js"],
-    tags: ["Backend"],
-  },
-  {
-    title: "simple arduino car",
+    title: "RC arduino car",
     visit: "https://github.com/samuelajala01/embedded-systems-projects",
     desc: "code for arduino car utlizing bluetooth as the communication protocol",
     type: "solo",
@@ -164,7 +173,7 @@ const Projects = () => {
             />
           ))
         ) : (
-          <p className="text-center text-xl">Not Found</p>
+          <p className="text-center text-xl">Oops💀, Not Found</p>
         )}
       </div>
 

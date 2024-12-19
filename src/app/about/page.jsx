@@ -10,7 +10,7 @@ const About = () => {
         <div className="inline-flex flex-col-reverse sm:flex-row items-center">
           <p className="text-[1.1rem] md:text-[1.4rem] opacity-75 flex-[1.5]">
             
-            Hey there! I&#39;m currently studying Electronics and Computer Engineering at Lagos State University, but honestly, I&#39;ve always been more than just a student. Ever since I saw Honda&#39;s ASIMO robot at 12, I&#39;ve been hooked on the idea that machines can do more than just exist—they can learn, adapt, and change lives.
+            Hey there! I&#39;m currently studying Electronics and Computer Engineering at Lagos State University, but honestly, I&#39;ve always been more than just a student. Ever since I saw Honda&#39;s ASIMO robot at 12, I&#39;ve been hooked on the idea that machines/robots can do more than just exist—they can learn, adapt, and change lives.
 
 That moment sparked my love for Machine Learning and Embedded Systems, and I&#39;ve been chasing that passion ever since. Whether I&#39;m designing hardware, writing code, or bringing the two together to solve real problems, I&#39;m always up for a challenge. I love the process of figuring things out—how systems work, how they can get better, and how we can use them to make life easier
           </p>
