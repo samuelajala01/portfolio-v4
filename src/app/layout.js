@@ -6,24 +6,22 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Samuel Ajala - Machine Learning Engineer & Software Developer",
-  description: "Expert in Embedded Systems, Machine Learning, AI, Robotics, and Full-Stack Development. Crafting intelligent software solutions for automation and innovation.",
+  title: "Samuel Ajala - Machine Learning Engineer & Embedded Systems Enthusiast",
+  description: "Embedded Systems, Machine Learning, AI, Robotics, and Full-Stack Development. Crafting intelligent software solutions for automation and innovation.",
   keywords: "Samuel Ajala, Ajala, Software Developer, Machine Learning Engineer, Embedded Systems, AI, Robotics, Full-Stack Development, Automation, Artificial Intelligence, Developer Portfolio, ML, ML Engineer, Electronics and Computer Engineering, Python, Computer Vision",
-  
+ 
   // OpenGraph metadata
   openGraph: {
     title: "Samuel Ajala - Machine Learning Engineer & Software Developer",
     description: "Expert in Embedded Systems, Machine Learning, AI, Robotics, and Full-Stack Development. Crafting intelligent software solutions for automation and innovation.",
     url: "https://cy63rx.vercel.app",
     siteName: "Samuel Ajala Portfolio",
-    images: [
-      {
-        url: "/public/avatar.png", 
-        width: 1200,
-        height: 630,
-        alt: "Samuel Ajala - Software Developer (ML)",
-      },
-    ],
+    images: [{
+      url: "https://cy63rx.vercel.app/avatar.png",
+      width: 800,
+      height: 600,
+      alt: "Samuel Ajala - Software Developer (ML)",
+    }],
     locale: "en_US",
     type: "website",
   },
@@ -33,8 +31,8 @@ export const metadata = {
     card: "summary_large_image",
     title: "Samuel Ajala - Machine Learning Engineer & Software Developer",
     description: "Expert in Embedded Systems, Machine Learning, AI, Robotics, and Full-Stack Development. Crafting intelligent software solutions for automation and innovation.",
-    creator: "@samuelajala01", 
-    images: ["/public/avatar.png"],
+    creator: "@samuelajala01",
+    images: ["https://cy63rx.vercel.app/avatar.png"],
   },
 
   robots: {
@@ -48,14 +46,15 @@ export const metadata = {
       'max-snippet': -1,
     },
   },
+
   verification: {
-    google: "your-google-verification-code",
+    google: "",
   },
+
   alternates: {
     canonical: "https://cy63rx.vercel.app",
   },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
