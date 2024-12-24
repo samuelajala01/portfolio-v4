@@ -138,7 +138,7 @@ const Projects = () => {
             className="py-2 pl-[1rem] w-full bg-[#090f14] mb-4 text-lg border-2 border-[#090f14] rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--pry)] focus:ring-opacity-50"
             value={searchTerm}
             onChange={e => setSearchTerm(e.target.value)}
-            placeholder="Search Sam's Projects..."
+            placeholder="Search Sam's featured Projects..."
           />
         </div>
         <div className="flex flex-wrap justify-center">
