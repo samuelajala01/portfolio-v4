@@ -7,7 +7,7 @@ import ContactBox from '@/components/Contactbox';
 const projectList = [
   {
     title: "GenMedix",
-    visit: "https://github.com/SaasSquad/GenMedix",
+    visit: "https://genmedix.vercel.app",
     desc: "GenMedix is an Automated Therapeutic Intervention Software designed to help users recover and restore their mental health using AI, performance tracking, and personalised recommendations.",
     type: "team",
     tools: ["Python", "React", "Tailwind"],
@@ -47,7 +47,7 @@ const projectList = [
   }, 
   {
     title: "LASU Faculty Journal",
-    visit: "https://github.com/SaasSquad/faculty-journal",
+    visit: "https://facaulty-journal.onrender.com",
     desc: "A Fullstack Faculty Journal website for the Lagos State University which allows Lecturers and Students publish journals.",
     type: "team",
     tools: ["React", "Tailwind"],
@@ -55,7 +55,7 @@ const projectList = [
   },
   {
     title: "Language Identification Model",
-    visit: "https://github.com/samuelajala01/language_identification_model",
+    visit: "https://lang-identification-model.streamlit.app/",
     desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems.",
     type: "solo",
     tools: ["Python", "Jupyter Notebook"],
@@ -89,21 +89,13 @@ const projectList = [
   },
   {
     title: "Metabnb website clone",
-    visit: "https://github.com/samuelajala01/metabnb-clone",
+    visit: "https://metabnb-copy.netlify.app/",
     desc: "landing page clone of the metabnb site",
     type: "solo",
     tools: ["React", "CSS"],
     tags: ["Frontend"],
   },
-  {
-    title: "Easybank Landing Page",
-    visit: "https://github.com/samuelajala01/easybank-site",
-    desc: "Easybank landing page- a website challenge from frontendmentor",
-    type: "solo",
-    tools: [ "HTML", "CSS"],
-    tags: ["Frontend"],
-  },
-  
+
 ];
 
 const Projects = () => {
