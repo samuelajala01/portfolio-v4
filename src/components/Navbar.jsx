@@ -72,11 +72,11 @@ const Navbar = () => {
           </li>
           <li className="mx-[2.5vw] group">
             <Link
-              href="/research"
+              href="/blog"
               className="text-white font-medium relative overflow-hidden inline-block"
             >
               <span className="relative z-10 group-hover:text-blue-600 transition-colors duration-300">
-                Research
+                Blog
               </span>
               <span className="absolute inset-x-0 bottom-0 h-0.5 bg-blue-600 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </Link>
@@ -152,12 +152,12 @@ const Navbar = () => {
               </li>
               <li className="transform transition-all duration-500 ease-in-out group">
                 <Link
-                  href="/research"
+                  href="/blog"
                   className="text-white font-medium text-2xl relative overflow-hidden inline-block p-[0.2rem]"
                   onClick={toggleMenu}
                 >
                   <span className="relative z-10 group-hover:text-blue-600 transition-colors duration-300 inline-block transform group-hover:scale-110 ">
-                    Research
+                    Blog
                   </span>
                   <span className="absolute inset-x-0 bottom-0 h-0.5 bg-blue-600 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
                 </Link>
