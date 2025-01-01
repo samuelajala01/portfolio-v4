@@ -42,8 +42,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-white my-4 sm:my-[3vh] mb-12 text-2xl md:w-[40vw]">
-              Great things from a small place, pushing codes that will change
-              the world, one line at a time.
+              Machine Learning | Everything In between | Engineering
             </p>
           </div>
           <div className="flex flex-1 justify-around">

@@ -21,7 +21,7 @@ const About = () => {
             I&#39;m designing hardware, writing code, or bringing the two
             together to solve real problems, I&#39;m always up for a challenge.
             I love the process of figuring things out—how systems work, how they
-            can get better, and how we can use them to make life easier
+            can get better, and how we can use them to make life easier.
           </p>
           <div className=" flex justify-center md:flex flex-[1] mb-8 sm:mb-0">
             <Image
