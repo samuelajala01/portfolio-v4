@@ -11,7 +11,7 @@ const projectList = [
     desc: "GenMedix is an Automated Therapeutic Intervention Software designed to help users recover and restore their mental health using AI, performance tracking, and personalised recommendations.",
     type: "team",
     tools: ["Python", "React", "Tailwind"],
-    tags: ["Frontend", "Backend", "FullStack", "Machine learning/Artificial Intelligence"],
+    tags: ["Backend", "FullStack", "Machine learning/Artificial Intelligence"],
   },
   {
     title: "Vidly Backend",
@@ -27,7 +27,7 @@ const projectList = [
     desc: "Website for the Nigerian Innovative Hardware Development Society.",
     type: "team",
     tools: ["React", 'Tailwind'],
-    tags: ["Frontend"],
+    tags: ["Website"],
   },
   {
     title: "Object Classifier using CNN",
@@ -51,7 +51,7 @@ const projectList = [
     desc: "A Fullstack Faculty Journal website for the Lagos State University which allows Lecturers and Students publish journals.",
     type: "team",
     tools: ["React", "Tailwind"],
-    tags: ["Frontend", "Backend", "FullStack"],
+    tags: ["FullStack"],
   },
   {
     title: "Language Identification Model",
@@ -76,7 +76,7 @@ const projectList = [
     desc: "current portfolio page.",
     type: "solo",
     tools: ["Next js", "Tailwind"],
-    tags: ["Frontend"],
+    tags: ["Website"],
   },
   
   {
@@ -93,7 +93,7 @@ const projectList = [
     desc: "landing page clone of the metabnb site",
     type: "solo",
     tools: ["React", "CSS"],
-    tags: ["Frontend"],
+    tags: ["Website"],
   },
 
 ];
@@ -144,7 +144,7 @@ const Projects = () => {
             <button
               key={tag}
               onClick={() => handleTagClick(tag)}
-              className={`m-2 px-4 py-2 border-blue-600 border-2 rounded-full ${selectedTag === tag ? 'bg-blue-600 text-white' : 'text-white'}`}
+              className={`m-2 px-4 py-2 border-blue-600 border-2 rounded-md ${selectedTag === tag ? 'bg-blue-600 text-white' : 'text-white'}`}
             >
               {tag}
             </button>

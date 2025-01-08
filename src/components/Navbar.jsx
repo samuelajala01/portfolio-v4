@@ -88,15 +88,15 @@ const Navbar = () => {
         </div>
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-white focus:outline-none transition-transform duration-500 ease-in-out hover:scale-110"
+          className="md:hidden text-white focus:outline-none transition-transform duration-500 ease-in-out hover:scale-110 p-[0.2rem] bg-black/30"
           onClick={toggleMenu}
         >
           {isOpen ? (
-            <span className="text-4xl transition-transform duration-500 ease-in-out transform rotate-90">
+            <span className="text-4xl transition-transform duration-500 ease-in-out transform rotate-90 text-white">
               <RiCloseLargeLine />
             </span>
           ) : (
-            <span className="text-4xl transition-transform duration-500 ease-in-out transform">
+            <span className="text-4xl transition-transform duration-500 ease-in-out transform text-white">
               <RxHamburgerMenu />
             </span>
           )}
@@ -106,9 +106,7 @@ const Navbar = () => {
       {isMounted && (
         <div
           className={`md:hidden fixed inset-0 z-40 transform transition-all duration-500 ease-in-out ${
-            isOpen 
-              ? "translate-y-0 opacity-100" 
-              : "-translate-y-full opacity-0"
+            isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
           }`}
         >
           {/* Menu Content */}
