@@ -1,8 +1,8 @@
-'use client'
+"use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import Project from "@/components/Project";
-import ContactBox from '@/components/Contactbox';
+import ContactBox from "@/components/Contactbox";
 
 const projectList = [
   {
@@ -26,7 +26,7 @@ const projectList = [
     visit: "https://nihds.vercel.app",
     desc: "Website for the Nigerian Innovative Hardware Development Society.",
     type: "team",
-    tools: ["React", 'Tailwind'],
+    tools: ["React", "Tailwind"],
     tags: ["Website"],
   },
   {
@@ -44,7 +44,7 @@ const projectList = [
     type: "solo",
     tools: ["Python"],
     tags: ["Machine learning/Artificial Intelligence"],
-  }, 
+  },
   {
     title: "LASU Faculty Journal",
     visit: "https://facaulty-journal.onrender.com",
@@ -56,7 +56,7 @@ const projectList = [
   {
     title: "Language Identification Model",
     visit: "https://lang-identification-model.streamlit.app/",
-    desc: "In case you didn't catch that, I'm Samuel Ajala, currently in my third year studying Electronics and Computer Engineering at the Lagos State University. I have some experience in Frontend development, Additive Manufacturing, Internet of Things, and Embedded systems.",
+    desc: "An NLP classification model that can detect up to 20 different languages.",
     type: "solo",
     tools: ["Python", "Jupyter Notebook"],
     tags: ["Machine learning/Artificial Intelligence"],
@@ -78,7 +78,7 @@ const projectList = [
     tools: ["Next js", "Tailwind"],
     tags: ["Website"],
   },
-  
+
   {
     title: "RC arduino car",
     visit: "https://github.com/samuelajala01/embedded-systems-projects",
@@ -95,19 +95,21 @@ const projectList = [
     tools: ["React", "CSS"],
     tags: ["Website"],
   },
-
 ];
 
 const Projects = () => {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
   const [filteredProjects, setFilteredProjects] = useState(projectList);
-  const [selectedTag, setSelectedTag] = useState('');
+  const [selectedTag, setSelectedTag] = useState("");
 
   useEffect(() => {
-    const results = projectList.filter(project => 
-      (project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      project.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))) &&
-      (selectedTag === '' || project.tags.includes(selectedTag))
+    const results = projectList.filter(
+      (project) =>
+        (project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          project.tags.some((tag) =>
+            tag.toLowerCase().includes(searchTerm.toLowerCase())
+          )) &&
+        (selectedTag === "" || project.tags.includes(selectedTag))
     );
     setFilteredProjects(results);
   }, [searchTerm, selectedTag]);
@@ -116,10 +118,12 @@ const Projects = () => {
     setSelectedTag(tag);
   };
 
-  const allTags = Array.from(new Set(projectList.flatMap(project => project.tags)));
+  const allTags = Array.from(
+    new Set(projectList.flatMap((project) => project.tags))
+  );
 
   return (
-    <>      
+    <>
       <section className="mx-[5vw] mt-16 text-center mb-32">
         <h1 className="text-2xl md:text-[4vw] text-center mb-32 font-bold">
           See <span className="text-blue-600">my</span> projects
@@ -129,22 +133,26 @@ const Projects = () => {
             type="search"
             className="py-2 pl-[1rem] w-full bg-[#090f14] mb-4 text-lg border-2 border-[#090f14] rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--pry)] focus:ring-opacity-50"
             value={searchTerm}
-            onChange={e => setSearchTerm(e.target.value)}
+            onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="Search Sam's featured Projects..."
           />
         </div>
         <div className="flex flex-wrap justify-center">
           <button
-            onClick={() => handleTagClick('')}
-            className={`m-2 px-4 py-2 border-blue-600 border-2 rounded-full ${selectedTag === '' ? 'bg-blue-600 text-white' : 'text-white'}`}
+            onClick={() => handleTagClick("")}
+            className={`m-2 px-4 py-2 border-blue-600 border-2 rounded-md ${
+              selectedTag === "" ? "bg-blue-600 text-white" : "text-white"
+            }`}
           >
             All
           </button>
-          {allTags.map(tag => (
+          {allTags.map((tag) => (
             <button
               key={tag}
               onClick={() => handleTagClick(tag)}
-              className={`m-2 px-4 py-2 border-blue-600 border-2 rounded-md ${selectedTag === tag ? 'bg-blue-600 text-white' : 'text-white'}`}
+              className={`m-2 px-4 py-2 border-blue-600 border-2 rounded-md ${
+                selectedTag === tag ? "bg-blue-600 text-white" : "text-white"
+              }`}
             >
               {tag}
             </button>
@@ -155,12 +163,12 @@ const Projects = () => {
       <div className="mx-[5vw]">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((item) => (
-            <Project 
+            <Project
               key={item.title}
-              visit={item.visit} 
-              title={item.title} 
-              desc={item.desc} 
-              type={item.type} 
+              visit={item.visit}
+              title={item.title}
+              desc={item.desc}
+              type={item.type}
               tools={item.tools} // Just pass tools as array
             />
           ))
@@ -169,7 +177,7 @@ const Projects = () => {
         )}
       </div>
 
-      <ContactBox/>
+      <ContactBox />
     </>
   );
 };
