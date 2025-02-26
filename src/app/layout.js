@@ -1,27 +1,32 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Samuel Ajala - Machine Learning Engineer & Embedded Systems Enthusiast",
-  description: "Embedded Systems, Machine Learning, AI, Robotics, and Full-Stack Development. Crafting intelligent software solutions for automation and innovation.",
-  keywords: "Samuel Ajala, Ajala, Software Developer, Machine Learning Engineer, Embedded Systems, AI, Robotics, Full-Stack Development, Automation, Artificial Intelligence, Developer Portfolio, ML, ML Engineer, Electronics and Computer Engineering, Python, Computer Vision",
- 
+  title: "Samuel Ajala - Software Developer(ML) & Embedded Systems Enthusiast",
+  description:
+    " Hi, I'm Sam, currently a computer engineering student, and I'm always about building intelligent systems",
+  keywords:
+    "Samuel Ajala, Ajala, Software Developer, Machine Learning Engineer, Embedded Systems, AI, Robotics, Full-Stack Development, Automation, Artificial Intelligence, Developer Portfolio, ML, ML Engineer, Electronics and Computer Engineering, Python, Computer Vision",
+
   // OpenGraph metadata
   openGraph: {
     title: "Samuel Ajala - Machine Learning Engineer & Software Developer",
-    description: "Expert in Embedded Systems, Machine Learning, AI, Robotics, and Full-Stack Development. Crafting intelligent software solutions for automation and innovation.",
+    description:
+      "Expert in Embedded Systems, Machine Learning, AI, Robotics, and Full-Stack Development. Crafting intelligent software solutions for automation and innovation.",
     url: "https://cy63rx.vercel.app",
     siteName: "Samuel Ajala Portfolio",
-    images: [{
-      url: "https://cy63rx.vercel.app/avatar.png",
-      width: 800,
-      height: 600,
-      alt: "Samuel Ajala - Software Developer (ML)",
-    }],
+    images: [
+      {
+        url: "https://cy63rx.vercel.app/avatar.png",
+        width: 800,
+        height: 600,
+        alt: "Samuel Ajala - Software Developer (ML)",
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
@@ -30,7 +35,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Samuel Ajala - Machine Learning Engineer & Software Developer",
-    description: "Expert in Embedded Systems, Machine Learning, AI, Robotics, and Full-Stack Development. Crafting intelligent software solutions for automation and innovation.",
+    description:
+      "Expert in Embedded Systems, Machine Learning, AI, Robotics, and Full-Stack Development. Crafting intelligent software solutions for automation and innovation.",
     creator: "@samuelajala01",
     images: ["https://cy63rx.vercel.app/avatar.png"],
   },
@@ -41,9 +47,9 @@ export const metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
 
