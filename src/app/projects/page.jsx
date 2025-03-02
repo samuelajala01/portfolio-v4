@@ -58,7 +58,7 @@ const projectList = [
     visit: "https://lang-identification-model.streamlit.app/",
     desc: "An NLP classification model that can detect up to 20 different languages.",
     type: "solo",
-    tools: ["Python", "Jupyter Notebook"],
+    tools: ["Python", "Jupyter Notebook", "Streamlit"],
     tags: ["Machine learning/Artificial Intelligence"],
   },
 
@@ -125,9 +125,13 @@ const Projects = () => {
   return (
     <>
       <section className="mx-[5vw] mt-16 text-center mb-32">
-        <h1 className="text-2xl md:text-[4vw] text-center mb-32 font-bold">
+        <h1 className="text-2xl md:text-[4vw] text-center mb-16 font-bold">
           See <span className="text-blue-600">my</span> projects
         </h1>
+        <blockquote className="mb-16 text-[1.4rem]">
+          “We are what we repeatedly do. Excellence, then, is not an act, but a
+          habit.” — Aristotle
+        </blockquote>
         <div className="m-auto">
           <input
             type="search"

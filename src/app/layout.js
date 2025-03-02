@@ -16,12 +16,12 @@ export const metadata = {
   openGraph: {
     title: "Samuel Ajala - Machine Learning Engineer & Software Developer",
     description:
-      "Expert in Embedded Systems, Machine Learning, AI, Robotics, and Full-Stack Development. Crafting intelligent software solutions for automation and innovation.",
+      "Expert in Embedded Systems, Machine Learning, AI, Robotics. Crafting intelligent software solutions for automation and innovation.",
     url: "https://cy63rx.vercel.app",
     siteName: "Samuel Ajala Portfolio",
     images: [
       {
-        url: "https://cy63rx.vercel.app/avatar.png",
+        url: "/public/avatar.png",
         width: 800,
         height: 600,
         alt: "Samuel Ajala - Software Developer (ML)",
