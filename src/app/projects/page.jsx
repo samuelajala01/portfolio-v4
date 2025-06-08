@@ -6,6 +6,22 @@ import ContactBox from "@/components/Contactbox";
 
 const projectList = [
   {
+    title: "GemCraft",
+    visit: "https://gemcraft.vercel.app",
+    desc: "GemCraft is an AI-powered resume assistant designed to help users create compelling, job-ready resumes through smart optimization. It analyzes job descriptions and resumes to ensure perfect alignment, providing users with tailored suggestions and intelligent feedback that boost their chances of landing interviews.",
+    type: "solo",
+    tools: ["React js", "Tailwind"],
+    tags: ["Frontend", "Backend"],
+  },
+  {
+    title: "Space Clubs LASU",
+    visit: "https://www.spaceclubslasu.org",
+    desc: "Official website for Space Clubs LASU",
+    type: "solo",
+    tools: ["Next js", "Tailwind"],
+    tags: ["Frontend"],
+  },
+  {
     title: "GenMedix",
     visit: "https://genmedix.vercel.app",
     desc: "GenMedix is an Automated Therapeutic Intervention Software designed to help users recover and restore their mental health using AI, performance tracking, and personalised recommendations.",

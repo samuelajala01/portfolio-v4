@@ -20,7 +20,7 @@ body{
   background-image: url("../../public/bg-dark.png");
   background-attachment: fixed;
   color: white;
-  font-family: "Roboto";
+  font-family: "Poppins", sans-serif;
 }
 
 ::-webkit-scrollbar{
