@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Project from "@/components/Project";
 import ContactBox from "@/components/Contactbox";
+import gemcraft from "/public/gemcraft.png"
 
 const projectList = [
   {
@@ -12,6 +13,9 @@ const projectList = [
     type: "solo",
     tools: ["React js", "Tailwind"],
     tags: ["Frontend", "Backend"],
+    image: gemcraft,
+    imageAlt: "Image of GEmcraft"
+
   },
   {
     title: "Space Clubs LASU",
@@ -20,6 +24,8 @@ const projectList = [
     type: "solo",
     tools: ["Next js", "Tailwind"],
     tags: ["Frontend"],
+    image: gemcraft,
+    imageAlt: "Image of GEmcraft"
   },
   {
     title: "GenMedix",
@@ -28,6 +34,8 @@ const projectList = [
     type: "team",
     tools: ["Python", "React", "Tailwind"],
     tags: ["Backend", "FullStack", "Machine learning/Artificial Intelligence"],
+    image: gemcraft,
+    imageAlt: "Image of GEmcraft"
   },
   {
     title: "SM NLP Scapper",
@@ -36,6 +44,8 @@ const projectList = [
     type: "solo",
     tools: ["Python"],
     tags: ["Machine learning/Artificial Intelligence"],
+    image: gemcraft,
+    imageAlt: "Image of GEmcraft"
   },
   {
     title: "LASU Faculty Journal",
@@ -44,6 +54,8 @@ const projectList = [
     type: "team",
     tools: ["React", "Tailwind"],
     tags: ["FullStack"],
+    image: gemcraft,
+    imageAlt: "Image of GEmcraft"
   },
   {
     title: "Vidly Backend",
@@ -52,6 +64,8 @@ const projectList = [
     type: "solo",
     tools: ["Node js"],
     tags: ["Backend"],
+    image: gemcraft,
+    imageAlt: "Image of GEmcraft"
   },
   {
     title: "NIHDS Landing Page",
@@ -190,6 +204,8 @@ const Projects = () => {
               desc={item.desc}
               type={item.type}
               tools={item.tools} // Just pass tools as array
+              image={item.image}
+              imageAlt={item.imageAlt}
             />
           ))
         ) : (

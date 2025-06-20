@@ -17,7 +17,7 @@
 }
 
 body{
-  background-image: url("../../public/bg-dark.png");
+  background: linear-gradient(135deg, #0a1437 0%, #000000 100%);
   background-attachment: fixed;
   color: white;
   font-family: "Poppins", sans-serif;
